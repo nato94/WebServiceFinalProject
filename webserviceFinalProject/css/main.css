@@ -1,0 +1,34 @@
+body {
+    background-color: #7B84BF !important;
+}
+
+.jumbotron {
+    text-align: center !important;
+    color: #7B84BF !important;
+}
+
+table {
+    background-color: #eee !important;
+}
+
+#teamItems img {
+    width: 50%;
+}
+
+
+#selectedTeam {
+    margin-left: 40%;
+}
+
+#premierItems img {
+    width: 100px;
+}
+
+#pageLander {
+    padding: 50px !important;
+    background-color: #eeeeee !important;
+    color: black !important;
+}
+
+
+

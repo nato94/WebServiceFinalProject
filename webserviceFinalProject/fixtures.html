@@ -1,0 +1,83 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title></title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src="js/getFixtures.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='css/main.css'>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    
+</head>
+    <body>
+        <div w3-include-html="nav.html"></div> 
+
+        <h1 class='jumbotron'>
+            Select A Team to Get All of Their Fixtures
+        </h1>
+ 
+<div id='selectTeamDiv'>
+    <select id='selectedTeam'>
+        <option value="773">France</option>
+        <option value="811">Romania</option>
+        <option value="1065">Albania</option>
+        <option value="788">Switzerland</option>
+        <option value="833">Wales</option>
+        <option value="768">Slovakia</option>
+        <option value="770">England</option>
+        <option value="808">Russia</option>
+        <option value="803">Turkey</option>
+        <option value="799">Croatia</option>
+        <option value="794">Poland</option>
+        <option value="829">Northern Ireland</option>
+        <option value="759">Germany</option>
+        <option value="790">Ukraine</option>
+        <option value="760">Spain</option>
+        <option value="798">Czech Republic</option>
+        <option value="806">Republic of Ireland</option>
+        <option value="792">Sweeden</option>
+        <option value='805'>Belgium</option>
+        <option value="784">Italy</option>
+        <option value="816">Austria</option>
+        <option value="827">Hungary</option>
+        <option value="765">Portugal</option>
+        <option value="1066">Iceland</option>   
+    </select>
+
+            <button id='fixturesBtn' class='btn btn-primary'>Get All Team Fixtures</button>
+            <br>
+            <br>
+            <br>
+</div>
+        
+<div class='col-md-10 col-md-offset-1'>
+    <table id="fixtureItems" class='table table-bordered'>
+        <tr>
+            <th>
+                Fixture #
+            </th>
+            <th>
+                Home Team
+            </th>
+            <th>
+                Away Team
+            </th>
+            <th>
+                Result (Home - Away)
+            </th>
+        </tr>
+        
+    </table>
+    
+</div>
+        
+<script type='text/javascript' src='js/getAllGoalScorers.js' ></script>
+        <script type='text/javascript' src='js/slider.js' ></script>
+        <script>
+w3IncludeHTML();
+</script>
+</body>
+    
+</html>
